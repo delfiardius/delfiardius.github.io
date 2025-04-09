@@ -23,6 +23,26 @@ header {
     font-size: 1.5em;
 }
 
+.logo h1 a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.logo h1 a:hover {
+    background-color: orange;
+    color: white;
+    border-radius: 8px;
+}
+
+.logo h1 a:active {
+    background-color: lightblue;
+    color: #007BFF;
+    font-style: italic;
+}
+
+
 .navigation ul {
     list-style: none;
     padding: 0;
