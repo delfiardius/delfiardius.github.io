@@ -46,6 +46,46 @@ header {
     font-size: 1em;
 }
 
+section {
+    background-color: white;
+    border-radius: 16px;
+    border: 1px solid red;
+    margin: 10px auto 0px;
+}
+
+.about {
+    padding: 20px;
+}
+
+.about h1 {
+    text-decoration: underline;
+}
+
+.about p {
+    line-height: 30px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.project {
+    padding: 20px;
+}
+
+.project h1 {
+    text-decoration: underline;
+}
+
+.project .project-list {
+    background-color: red;
+}
+
+.project .project-list .project1 {
+    height: 200px;
+    margin: 20px;
+    background-color: blue;
+    display: inline-block;
+}
+
 footer {
     background: #333;
     color: white;
