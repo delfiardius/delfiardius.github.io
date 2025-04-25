@@ -135,106 +135,103 @@ table {
 }
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #a3a3a3;
-    text-align: center;
+    font: 16px/28px arial, sans-serif;
+    background-image: url(assets/my_circuit_pattern.png);
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+.top-bar {
+    top: 0;
+    height: 60px;
+    background-color: skyblue;
+    border-bottom: 3px goldenrod solid;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
 }
 
 .container {
     width: 960px;
-    margin: auto;
+    margin: 80px auto;
+    top: 40px;
+    position: relative;
     background-color: white;
 }
 
-header {
-    background-color: #0178ff;
-    height: 80px;
-    align-content: center;
-}
-
-.header-container {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 3px goldenrod solid;
 }
 
-.logo a img {
-    height: 40px;
-    padding-left: 10px;
+.header img {
+    height: 100px;
+    border-radius: 24px;
 }
 
-.navigation {
+.header .linkto {
     padding-right: 20px;
 }
 
-.navigation ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 15px;
+.header .linkto li {
+    display: inline-block;
+    box-sizing: border-box;
 }
 
-.navigation ul li a {
-    color: rgb(255, 255, 255);
+.header a {
     text-decoration: none;
-    font-size: 1em;
+    color: goldenrod;
     padding: 10px;
+    text-transform: uppercase;
+    box-sizing: border-box;
 }
 
-.navigation ul li a:hover {
+.header a:hover {
     background-color: salmon;
-    border-radius: 4px;
+    color: white;
 }
 
 .content {
-    padding: 10px;
-}
-
-section {
-    background-color: white;
-    border-radius: 16px;
-    border: 1px solid red;
-    margin: 10px auto 0px;
-    padding: 10px;
-}
-
-.about h1 {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.about p {
-    line-height: 30px;
-    text-align: justify;
-    text-indent: 30px;
-}
-
-.project {
     padding: 20px;
 }
 
-.project h1 {
-    text-decoration: underline;
+.content .main h1 {
+    line-height: 36px;
+    color: #646464;
 }
 
-.project .project-list {
-    background-color: red;
+.footer {
+    background-color: #333;
+    padding: 10px;
 }
 
-.project .project-list .project1 {
-    height: 200px;
-    margin: 20px;
-    background-color: blue;
-    display: inline-block;
+.footer .copy {
+    color: aliceblue;
+    font-size: 12px;
+    text-align: center;
 }
 
-footer {
-    background-color: #0178ff;
-    height: 80px;
-    align-content: center;
-    color: white;
-    font-size: 14px;
+/* Clear Fix */
+/* .cf:before,
+.cf:after {
+    content: " ";
+    display: table;
 }
+
+.cf:after {
+    clear: both;
+} */
