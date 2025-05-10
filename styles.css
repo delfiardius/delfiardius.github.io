@@ -28,8 +28,8 @@ main {
     display: flex;
     flex-direction: column;
     padding: 1.5rem;
-    height: 380px;
-    width: 280px;
+    height: 450px;
+    width: 350px;
     background-color: var(--accentColor);
     justify-content: space-between;
     align-items: center;
@@ -40,6 +40,10 @@ main {
     color: var(--onPrimaryColor);
 }
 
+main:hover {
+    background-color: var(--accentColorShadow);
+}
+
 .profile {
     display: flex;
     flex-direction: column;
@@ -47,13 +51,17 @@ main {
     /* justify-content: center; */
 }
 
+.profile h2 {
+    font-size: 32px;
+}
+
 .profile p {
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .foto {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     overflow: hidden;
     border-radius: 50%;
     border: 3px solid var(--onPrimaryColor);
@@ -61,7 +69,7 @@ main {
 }
 
 .foto img {
-    width: 120px;
+    width: 150px;
 }
 
 /* contact */
@@ -84,4 +92,8 @@ main {
     color: var(--thirdColor);
     border-radius: 50px;
     box-shadow: 0 4px 12px var(--onPrimaryColorShadow);
+}
+
+.view a:hover {
+    background-color: var(--onSecondaryColor);
 }
