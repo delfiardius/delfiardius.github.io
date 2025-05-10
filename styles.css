@@ -38,6 +38,7 @@ main {
     border-radius: 16px;
     box-shadow: 0 4px 12px var(--accentColorShadow);
     color: var(--onPrimaryColor);
+    transition: background-color 0.3s ease-in-out;
 }
 
 main:hover {
