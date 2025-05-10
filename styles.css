@@ -85,10 +85,10 @@ main:hover {
 
 /* view profile btn */
 .view a {
-    font-weight: 500;
+    font-weight: 600;
     display: inline-block;
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 10px 90px;
     background-color: var(--onPrimaryColor);
     color: var(--thirdColor);
     border-radius: 50px;
